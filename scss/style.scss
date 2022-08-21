@@ -1,4 +1,12 @@
-@import 'global';
+@import './components/buttons';
+@import './components/extend';
+@import './layout/global';
+@import './utilities/media';
+@import './utilities/mixin';
+@import './utilities/variables';
+@import './utilities/mapas';
+
+
 
 .logo{
     width:100px;
@@ -86,4 +94,3 @@ footer{
     }
 }
 
-@import 'media';

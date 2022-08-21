@@ -1,0 +1,8 @@
+$color: (
+  primary:#89CFFD
+    secondary:#F94892
+);
+
+h1{
+    color: map-get($color, secondary);
+}

@@ -1,0 +1,30 @@
+%links{
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(134, 132, 132);
+}
+
+// font-cal (toma parrafo y tipo de titulo)
+
+%titulos{
+    font-size: font-calc(50, h2);
+}
+
+%imagenes{
+    width:80%;
+    height: auto;
+}
+
+
+.decoracion-link{
+    @extend %links;
+}
+
+.ejemplo{
+    @extend %titulos;
+}
+
+img{
+    @extend %imagenes;
+
+}

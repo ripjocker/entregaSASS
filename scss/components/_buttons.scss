@@ -1,0 +1,28 @@
+.btn{
+    border: none;
+    border-radius:2px;
+    padding: 0.7em 1.5em;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size:1.5rem;
+    font-weight: 500;
+    transition: transform 100ms;
+    &:hover{
+        transform: scale(1.1);
+    }
+    
+}
+
+
+
+.btn-principal{
+    @extend .btn;
+    color: #fff;
+    background-color: #6495ED;
+}
+
+.btn-secundario{
+    @extend .btn;
+    background-color:rgb(134, 132, 132);
+}

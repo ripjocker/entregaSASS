@@ -3,18 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <!-- FUENTES -->
     <link rel="stylesheet" href="./css/style.css">
+    
     <script src="https://kit.fontawesome.com/8a815a169a.js" crossorigin="anonymous"></script>
+
+    <!-- Posicionamiento de pag. -->
     <meta name="keywords"  content="programacion, portafolio, Nicolas Roncallo, Programador full stack, CSS, HTML, JAVA, JAVASCRIPT, PYTHON, C, C++" >
     <meta name="description" content="Encontra el programador que necesitas, presento mi portafolio de trabajos realizados y mi conocimiento en diferentes lenguajes ">
+    
+    
+    <!-- OPEN GRAPH -->
+    
+    <meta property="og:tipe" content="Portafolio Nicolas Roncallo">
+    <meta property="og:title" content="Portafolio Nicolas Roncallo">
+    <meta property="og:description" content="Encontra el codigo que mas se adapte a tus necesidades"> 
+    <meta property="og:image" content="./img/logo.png"> 
+    <meta property="og:name" content="Mi portafolio"> 
+
     <title>Programador full stack! con varios años de Experiencia en diferentes puestos</title>
 
 
 </head>
 
 <body>
-    
+     <!--Inicio Barra de navegacion -->
     <header id="menu">         
         <nav>
             <a href="index.html"><img src="./img/logo.png" class="logo" alt="Progamacion, mi portafolio Nicolas Roncallo" ></a>
@@ -27,12 +40,12 @@
     </header>
 
 
-
+    <!--Contenido Principal --> 
     <section class="presentacion">
         <div class="flex-item1">
             <h1>El codigo que mejor se adapte a lo que necesites</h1>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem reiciendis modi fugit temporibus porro atque, vel placeat impedit repellendus sint!
+                Desarrollo el codigo que necesites desde 0, segun tus indicaciones y necesidades
             </p>
             <div>
                 <button class="btn-principal" type ="submit">COMUNICATE</button>
@@ -44,13 +57,14 @@
         </div>
     </section>
 
-
+   
     <div class="wrapper">
         <section class="servicios" >
             <div class="titulo-servicios">
                 <h2>Creamos Experiencias Maravillosas Para Los Usuarios</h2>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci laudantium delectus nobis a molestiae amet eaque consequatur veritatis excepturi at.
+                    Freelance Web Designer & Developer based in Galway, Ireland.
+                    Highly experienced in designing & developing custom Wordpress websites. 
                 </p>
             </div>
             <div class="tipo-servicios">
@@ -58,33 +72,34 @@
                     <i class="fas fa-drafting-compass"></i>
                     <h3>Diseño UX/UI</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                        Hacemos reales tus ideas, creamos el diseño que necesites
                     </p>
                 </div>
                 <div>
                     <i class="fas fa-laptop"></i>
                     <h3>Desarrollo WEB</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                        Tenemos mas de 1000 diseños para que elijas el que mejor se adapte a ti
                     </p>
                 </div>
                 <div>
                     <i class="fas fa-cart-arrow-down"></i>
                     <h3>Comercio Digital</h3>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, est.
+                        Es un modelo de negocio basado en la compra, venta y comercialización de productos y servicios a través de medios digitales
                     </p>
                 </div>
             </div>
         </section>
     </div>
 
+    <!--Footer --> 
     <footer>
         <p class="footer-content">
             Nicolas R &copy;Todos los derechos reservados 2022
         </p>
     </footer>
-  
+  <!------------inicializacion script--------------->
     <script>
        const menu = document.getElementById('menu');
        window.onscroll = function(){
